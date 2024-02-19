@@ -1,10 +1,29 @@
 .logo{
     width: 50px;
-
 }
 
 .navbar-top{
     background-color: #252422;
 }
 
+.nav-action-container{
+    margin-top: 0.6rem;
+}
 
+@media screen and (min-width: 992px){
+    .nav-action{
+        display: inline;
+    }
+
+    .nav-action-container{
+        justify-content: end;
+    }
+}
+
+
+@media screen and (max-width: 992px){
+
+    .nav-action-container{
+        justify-content: start;
+    }
+}
