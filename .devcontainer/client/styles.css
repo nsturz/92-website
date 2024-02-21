@@ -1,3 +1,14 @@
+.album-art{
+    width: 80%;
+}
+
+.copy{
+    font-size: 2rem;
+}
+
+.promo-img{
+    width: 100%;
+}
 
 .familjen-grotesk-92 {
   font-family: "Familjen Grotesk", sans-serif;
@@ -6,7 +17,9 @@
   font-style: normal;
 }
 .logo{
-    width: 50px;
+    width: 20%;
+    left: 2%;
+    top: 15%;
 }
 
 .navbar-top{
@@ -29,6 +42,10 @@
 
 
 @media screen and (max-width: 992px){
+    .logo{
+        top: 10%;
+     }
+     
 
     .nav-action-container{
         justify-content: start;
