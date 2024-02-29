@@ -1,5 +1,25 @@
+.action-links{
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.action-links:hover{
+    cursor: pointer;
+    transform: scale(1.05); /* Increase the scale by 5% on hover */
+    transition: transform 0.3s ease, color 0.5s ease; /* Apply a smooth transition effect over 0.3 seconds */
+    color: #FE2500;
+}
 .album-art{
     width: 80%;
+}
+
+.album-info{
+    justify-content: end;
+}
+
+.apple-music-img{
+    width: 5%;
 }
 
 .copy{
@@ -42,6 +62,11 @@
 
 
 @media screen and (max-width: 992px){
+    .album-info,
+    .album-links{
+        justify-content: center;
+    }
+
     .logo{
         top: 10%;
      }
