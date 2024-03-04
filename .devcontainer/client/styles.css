@@ -62,6 +62,9 @@
 
 
 @media screen and (max-width: 992px){
+    .album-art{
+        width: 60%;
+    }
     .album-info,
     .album-links{
         justify-content: center;
