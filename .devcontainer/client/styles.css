@@ -50,6 +50,15 @@
     margin-top: 0.6rem;
 }
 
+.shows-info{
+    background: #252422;
+}
+
+.venue-info{
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
 @media screen and (min-width: 992px){
     .nav-action{
         display: inline;
