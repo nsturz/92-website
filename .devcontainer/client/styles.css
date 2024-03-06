@@ -50,8 +50,19 @@
     margin-top: 0.6rem;
 }
 
+.show:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.3); /* White with 50% opacity */
+}
+  
+
 .shows-info{
     background: #252422;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
 }
 
 .venue-info{
@@ -87,4 +98,14 @@
     .nav-action-container{
         justify-content: start;
     }
+}
+
+@media screen and (max-width: 462px){
+   .show-details{
+    font-size: 0.8rem;
+   } 
+
+   .venue-info{
+    font-size: 0.5rem;
+   }
 }
