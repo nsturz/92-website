@@ -1,0 +1,137 @@
+.action-links{
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.action-links:hover{
+    cursor: pointer;
+    transform: scale(1.05); /* Increase the scale by 5% on hover */
+    transition: transform 0.3s ease, color 0.5s ease; /* Apply a smooth transition effect over 0.3 seconds */
+    color: #FE2500;
+}
+.album-art{
+    width: 80%;
+}
+
+.album-info{
+    justify-content: end;
+}
+
+.apple-music-img{
+    width: 5%;
+}
+
+.copy{
+    font-size: 2rem;
+}
+
+iframe{
+    width: 560px;
+    height: 415px;
+}
+
+.promo-img{
+    width: 100%;
+}
+
+.familjen-grotesk-92 {
+  font-family: "Familjen Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.logo{
+    width: 20%;
+    left: 2%;
+    top: 15%;
+}
+
+.navbar-top,
+.navbar-bottom{
+    background-color: #252422;
+}
+
+.navbar-bottom-text{
+    font-size: 0.8rem;;
+}
+
+.nav-action-container{
+    margin-top: 0.6rem;
+}
+
+.show:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.3); /* White with 50% opacity */
+}
+  
+
+.shows-info,
+.video-section{
+    background: #252422;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+.venue-info{
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
+.video-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 50vh; /* Adjust as needed */
+}
+.video-container iframe {
+    width: 100%;
+    max-width: 800px; /* Limit the max width */
+}
+
+@media screen and (min-width: 992px){
+    .nav-action{
+        display: inline;
+    }
+
+    .nav-action-container{
+        justify-content: end;
+    }
+}
+
+
+@media screen and (max-width: 992px){
+    .album-art{
+        width: 60%;
+    }
+    .album-info,
+    .album-links{
+        justify-content: center;
+    }
+
+    .logo{
+        top: 10%;
+     }
+     
+
+    .nav-action-container{
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width: 462px){
+    iframe{
+        height: 300px;
+    }
+   .show-details{
+    font-size: 0.8rem;
+   } 
+
+   .venue-info{
+    font-size: 0.5rem;
+   }
+}
