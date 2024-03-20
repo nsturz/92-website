@@ -26,6 +26,11 @@
     font-size: 2rem;
 }
 
+iframe{
+    width: 560px;
+    height: 415px;
+}
+
 .promo-img{
     width: 100%;
 }
@@ -42,8 +47,13 @@
     top: 15%;
 }
 
-.navbar-top{
+.navbar-top,
+.navbar-bottom{
     background-color: #252422;
+}
+
+.navbar-bottom-text{
+    font-size: 0.8rem;;
 }
 
 .nav-action-container{
@@ -56,7 +66,8 @@
 }
   
 
-.shows-info{
+.shows-info,
+.video-section{
     background: #252422;
 }
 
@@ -68,6 +79,18 @@ ul{
 .venue-info{
     font-size: 0.8rem;
     font-weight: lighter;
+}
+
+.video-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 50vh; /* Adjust as needed */
+}
+.video-container iframe {
+    width: 100%;
+    max-width: 800px; /* Limit the max width */
 }
 
 @media screen and (min-width: 992px){
@@ -101,6 +124,9 @@ ul{
 }
 
 @media screen and (max-width: 462px){
+    iframe{
+        height: 300px;
+    }
    .show-details{
     font-size: 0.8rem;
    } 
