@@ -69,9 +69,14 @@ iframe{
     margin-right: calc(-50vw + 50%);
     margin-left: calc(-50vw + 50%);
 }
-.shows-info,
+
+.shows-info{
+    background-color: #252422;
+    margin-right: calc(-50vw + 50%);
+    margin-left: calc(-50vw + 50%);
+}
+
 .video-section{
-    background: #252422;
     margin-right: calc(-50vw + 50%);
     margin-left: calc(-50vw + 50%);
     padding: 50px 0;
@@ -81,6 +86,10 @@ ul{
     padding: 0;
     list-style: none;
 }
+
+/* .upcoming-shows{
+    background-color: #252422;
+} */
 
 .venue-info{
     font-size: 0.8rem;
